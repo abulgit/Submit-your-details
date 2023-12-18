@@ -10,8 +10,4 @@ try {
 } catch (mysqli_sql_exception) {
     echo "Db is Not Connected! ";
 }
-if($conn){
-    echo "You are Connected!";
-}
-
 ?>
